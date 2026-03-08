@@ -1,6 +1,9 @@
 # Chess_Blunder_Prediction
 Predicting human chess blunders using machine learning and engine analysis to study decision making under complexity.
 
+Research Project
+Machine Learning | Game Theory | Decision Science
+
 # Predicting Human Chess Blunders
 
 This project investigates the causes of human error in chess and explores whether machine learning models can predict blunders before they occur.
