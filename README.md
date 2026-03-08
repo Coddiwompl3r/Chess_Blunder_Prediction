@@ -15,7 +15,7 @@ Using large datasets of online chess games and analysis from the Stockfish chess
 
 ## Dataset
 
-Games are sourced from public datasets from Lichess, containing millions of games and move sequences.
+Games are sourced from public datasets from Lichess and Chess.com, containing millions of games and move sequences.
 
 ## Methods
 
