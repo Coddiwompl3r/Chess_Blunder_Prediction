@@ -16,7 +16,7 @@ a5 Rb5 35. a6 Ra5 36. Qb7 Qxb7 37. axb7 Rb5 38. Nc5 Nd5 39. Ra1 Ne7 40. Ra8 Nc6
 41. Rc8 1-0
 
 
-[Event "January 01 Second 2026"]
+[Event "January 01 2026"]
 [Site "chess.com"]
 [Date "2026.01.01"]
 [White "Hikaru Nakamura"]
@@ -40,3 +40,57 @@ Rh2+ 80. Kf3 Ra2 81. e5 Ra3+ 82. Kf4 Ra4+ 83. Kf5 Ra5 84. Kf4 Ra4+ 85. Kf3 Ra5
 86. e6 Re5 87. Rg6 Rf5+ 88. Ke4 Rf1 89. Ke5 Re1+ 90. Kf4 Kh2 91. Rh6 h3 92. Kf3
 Rf1+ 93. Ke2 Rf5 94. Rh7 Re5+ 95. Kf2 Rf5+ 96. Ke3 Re5+ 97. Kf4 Rxe6 98. Kg4
 Rg6+ 99. Kf5 Rf6+ 100. Kxf6 1-0
+
+
+[Event "January 01 2026"]
+[Site "chess.com"]
+[Date "2026.01.01"]
+[White "Fabiano Caruana"]
+[Black "Nihal Sarin"]
+[Result "1-0"]
+[Link "https://www.chess.com/games/view/18243644"]
+
+1. e4 e5 2. d3 Nc6 3. Nc3 Bb4 4. Ne2 d5 5. exd5 Qxd5 6. a3 Bxc3+ 7. Nxc3 Qd6 8.
+Be3 Nf6 9. Qd2 Bf5 10. O-O-O O-O 11. f4 Rfe8 12. h3 Be6 13. g4 Nd5 14. Ne4 Qf8
+15. f5 Nxe3 16. Qxe3 Bd5 17. Bg2 Rad8 18. Rdf1 Nd4 19. Kb1 Bxe4 20. Bxe4 Qc5 21.
+Rh2 Rd6 22. f6 Rb6 23. Qg5 g6 24. Qh6 Qf8 25. Qxf8+ Kxf8 26. h4 h6 27. g5 h5 28.
+c3 Nb5 29. Ka2 Nd6 30. Rd2 Rd8 31. Rfd1 a5 32. b4 axb4 33. axb4 c5 34. Kb3 cxb4
+35. c4 Ra6 36. Kxb4 Rda8 37. Rb2 Ke8 38. Kc3 Ra3+ 39. Rb3 Kd7 40. Bd5 Rxb3+ 41.
+Kxb3 Rc8 42. Re1 b5 43. Rxe5 bxc4+ 44. dxc4 Re8 45. Rxe8 Kxe8 46. c5 Nf5 47. c6
+Nd6 48. Kb4 Kd8 49. Kc5 Kc7 50. Ba2 Ne4+ 51. Kd4 Nd6 52. Kd5 Nc8 53. Kc5 Nd6 54.
+Bd5 Nf5 55. Bxf7 Nxh4 56. Bd5 Nf5 57. f7 1-0
+
+
+[Event "Kasparov Simul"]
+[Site "chess.com"]
+[Date "2025.10.21"]
+[White "Garry Kasparov"]
+[Black "Gijs Apperloo"]
+[Result "1-0"]
+[Link "https://www.chess.com/games/view/18133454"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bg4 5. h3 Bh5 6. Nc3 e6 7. g4 Bg6 8. Ne5 Bd6
+9. h4 h6 10. Nxg6 fxg6 11. Bd3 Ne4 12. Nxe4 dxe4 13. Bxe4 Qf6 14. Qd3 g5 15. c5
+Bc7 16. Qb3 Ba5+ 17. Ke2 b5 18. a4 gxh4 19. axb5 Bd8 20. bxc6 O-O 21. f3 Bc7 22.
+Qb7 Nxc6 23. Qxc6 Bg3 24. Bd2 Rab8 25. b4 Rfc8 26. Qa6 Rc7 27. f4 Rf8 28. Qd6
+Re7 29. b5 g5 30. f5 Bxd6 31. cxd6 Rd7 32. Bb4 Rb8 33. Bc6 Rdd8 34. Rhf1 Rb6 35.
+Bc5 Rxc6 36. bxc6 Qf7 37. Rxa7 Qe8 38. d7 Qf7 39. c7 Rxd7 40. c8=Q+ Kg7 41. Rxd7
+1-0
+
+
+[Event "Match"]
+[Site "Sveti-Stefan/Belgrade (Yugoslavia)"]
+[Date "1992.??.??"]
+[White "Bobby Fischer"]
+[Black "Boris V Spassky"]
+[Result "1-0"]
+[Link "https://www.chess.com/games/view/584190"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Nb8 10. d4 Nbd7 11. Nbd2 Bb7 12. Bc2 Re8 13. Nf1 Bf8 14. Ng3 g6 15.
+Bg5 h6 16. Bd2 Bg7 17. a4 c5 18. d5 c4 19. b4 Nh7 20. Be3 h5 21. Qd2 Rf8 22. Ra3
+Ndf6 23. Rea1 Qd7 24. R1a2 Rfc8 25. Qc1 Bf8 26. Qa1 Qe8 27. Nf1 Be7 28. N1d2 Kg7
+29. Nb1 Nxe4 30. Bxe4 f5 31. Bc2 Bxd5 32. axb5 axb5 33. Ra7 Kf6 34. Nbd2 Rxa7
+35. Rxa7 Ra8 36. g4 hxg4 37. hxg4 Rxa7 38. Qxa7 f4 39. Bxf4 exf4 40. Nh4 Bf7 41.
+Qd4+ Ke6 42. Nf5 Bf8 43. Qxf4 Kd7 44. Nd4 Qe1+ 45. Kg2 Bd5+ 46. Be4 Bxe4+ 47.
+Nxe4 Be7 48. Nxb5 Nf8 49. Nbxd6 Ne6 50. Qe5 1-0
