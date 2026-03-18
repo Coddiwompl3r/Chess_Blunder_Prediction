@@ -22,6 +22,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from engine_analysis    import analyze_game, STOCKFISH_PATH
 from feature_extraction import extract_features
+from parse_lichess import parse_game_with_clocks
 
 
 def get_player_ratings(game):
@@ -85,7 +86,19 @@ def build_dataset(pgn_path, output_path, max_games=5, depth=10):
                 ratings  = get_player_ratings(game)
                 features = extract_features(analyzed, game, ratings)
 
-                # Step 3: Add game-level metadata to every move record
+                # Step 3: Parse clock data
+                clock_data = parse_game_with_clocks(game)
+
+                # Step 4: Merge clock features into each move record
+                for i, record in enumerate(features):
+                    if i < len(clock_data):
+                        record["time_spent_seconds"] = clock_data[i]["time_spent_seconds"]
+                        record["time_pressure"]       = clock_data[i]["time_pressure"]
+                    else:
+                        record["time_spent_seconds"] = None
+                        record["time_pressure"]       = None
+
+                # Step 5: Add game-level metadata to every move record
                 for record in features:
                     record["game_id"]    = game_idx
                     record["white_name"] = white
@@ -140,14 +153,14 @@ if __name__ == "__main__":
     script_dir  = os.path.dirname(os.path.abspath(__file__))
     project_dir = os.path.dirname(script_dir)
 
-    pgn_path    = os.path.join(project_dir, "data", "sample_games.pgn")
-    output_path = os.path.join(project_dir, "data", "chess_blunder_dataset.csv")
+    pgn_path    = os.path.join(project_dir, "data", "lichess_sample.pgn")
+    output_path = os.path.join(project_dir, "data", "lichess_blunder_dataset.csv")
 
     df = build_dataset(
         pgn_path    = pgn_path,
         output_path = output_path,
-        max_games   = 5,
-        depth       = 10
+        max_games   = 20000,
+        depth       = 5
     )
 
 
