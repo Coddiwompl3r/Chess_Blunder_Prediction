@@ -110,6 +110,13 @@ def build_dataset(pgn_path, output_path, max_games=5, depth=10):
                 all_records.extend(features)
                 games_processed += 1
 
+                # Save checkpoint every 500 games
+                # If the process dies, you keep the work
+                if games_processed % 500 == 0:
+                    df_checkpoint = pd.DataFrame(all_records)
+                    df_checkpoint.to_csv(output_path, index=False)
+                    print(f"  [CHECKPOINT] Saved {games_processed} games to disk")
+
                 blunders = sum(1 for r in features if r["is_blunder"])
                 mistakes = sum(1 for r in features if r["is_mistake"])
                 print(f"  -> {len(features)} moves | {blunders} blunders | {mistakes} mistakes")
@@ -159,7 +166,7 @@ if __name__ == "__main__":
     df = build_dataset(
         pgn_path    = pgn_path,
         output_path = output_path,
-        max_games   = 20000,
+        max_games   = 5000,
         depth       = 5
     )
 
