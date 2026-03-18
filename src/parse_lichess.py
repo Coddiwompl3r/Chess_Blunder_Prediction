@@ -44,12 +44,14 @@ def parse_game_with_clocks(game):
 
         # Calculate time spent on this move
         time_spent = None if prev_clock is None else prev_clock - clock_after
+        time_pressure = None if (starting_seconds is None or starting_seconds == 0) else clock_after / starting_seconds
 
         record = {
             "move_uci":            move.uci(),
             "player_to_move":      "white" if board.turn == chess.WHITE else "black",
             "clock_after_seconds": clock_after,
             "time_spent_seconds":  time_spent,
+            "time_pressure":    time_pressure,
         }
 
         records.append(record)
@@ -84,7 +86,8 @@ def main():
     for r in records[:5]:
         print(f"  {r['player_to_move']:<6} | {r['move_uci']} | "
               f"clock: {r['clock_after_seconds']}s | "
-              f"spent: {r['time_spent_seconds']}s")
+              f"spent: {r['time_spent_seconds']}s | "
+              f"pressure: {r['time_pressure']:.2f}")
 
 
 if __name__ == "__main__":
