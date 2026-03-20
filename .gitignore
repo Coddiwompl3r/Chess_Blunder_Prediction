@@ -12,3 +12,6 @@ __pycache__/
 # Trained models (can be large)
 models/*.pkl
 models/*.joblib
+
+output
+output.pgn
