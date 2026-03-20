@@ -1,0 +1,14 @@
+# Large data files - too big for GitHub
+data/lichess_blunder_dataset.csv
+data/lichess_sample.pgn
+data/build_log.txt
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Trained models (can be large)
+models/*.pkl
+models/*.joblib
