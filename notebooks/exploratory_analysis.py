@@ -19,7 +19,7 @@ import os
 script_dir  = os.path.dirname(os.path.abspath(__file__))
 project_dir = os.path.dirname(script_dir)
 
-data_path    = os.path.join(project_dir, "data",    "chess_blunder_dataset.csv")
+data_path = os.path.join(project_dir, "data", "lichess_blunder_dataset.csv")
 results_path = os.path.join(project_dir, "results")
 os.makedirs(results_path, exist_ok=True)
 
